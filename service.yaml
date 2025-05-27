@@ -17,7 +17,7 @@ spec:
             name: nginx-service
             port:
               number: 80
-  - host: "10.10..37.233"  # Or whatever your node IP is
+  - host: "10.10.37.233"  # Or whatever your node IP is
     http:
       paths:
       - path: /
