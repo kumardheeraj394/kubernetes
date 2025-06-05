@@ -8,7 +8,7 @@ spec:
   selector:
     app: nginx
   ports:
-    - port: 80          # The port the service exposes inside the cluster
-      targetPort: 80    # The port your Pod (Nginx container) is listening on
+    - port: 9090         # The port the service exposes inside the cluster
+      targetPort: 9090    # The port your Pod (Nginx container) is listening on
       nodePort: 30880   # The external port on the Node
       protocol: TCP
