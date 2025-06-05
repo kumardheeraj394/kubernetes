@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: priti
-          image: pritidevops/webapp:2                  #nginx:latest
+          image: nginx:latest     #pritidevops/webapp:2                  
           ports:
-            - containerPort: 9090
+            - containerPort: 80
